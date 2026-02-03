@@ -1,0 +1,6 @@
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/CMakeFiles/Balanced_Infantry.elf.dir
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/CMakeFiles/CMSISDSP.dir
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/CMakeFiles/edit_cache.dir
+D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/CMakeFiles/rebuild_cache.dir

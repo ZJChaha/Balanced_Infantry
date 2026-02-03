@@ -1,0 +1,19 @@
+CMakeFiles/Balanced_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ c:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h \
+ D:\Clion_Project\Balanced_Infantry\Core\Inc/FreeRTOSConfig.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ D:\Clion_Project\Balanced_Infantry\Middlewares\Third_Party\FreeRTOS\Source\include/list.h

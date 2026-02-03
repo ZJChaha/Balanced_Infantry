@@ -1,0 +1,2853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Balanced_Infantry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMSIS-DSP\;CMake Files\CMSIS-DSP\Source\;CMake Files\CMSIS-DSP\Source\BasicMathFunctions\;CMake Files\CMSIS-DSP\Source\ComplexMathFunctions\;CMake Files\CMSIS-DSP\Source\QuaternionMathFunctions\;CMake Files\CMSIS-DSP\Source\ControllerFunctions\;CMake Files\CMSIS-DSP\Source\FastMathFunctions\;CMake Files\CMSIS-DSP\Source\FilteringFunctions\;CMake Files\CMSIS-DSP\Source\MatrixFunctions\;CMake Files\CMSIS-DSP\Source\StatisticsFunctions\;CMake Files\CMSIS-DSP\Source\SupportFunctions\;CMake Files\CMSIS-DSP\Source\TransformFunctions\;CMake Files\CMSIS-DSP\Source\CommonTables\;CMake Files\CMSIS-DSP\Source\SVMFunctions\;CMake Files\CMSIS-DSP\Source\BayesFunctions\;CMake Files\CMSIS-DSP\Source\DistanceFunctions\;CMake Files\CMSIS-DSP\Source\InterpolationFunctions\;CMake Files\CMSIS-DSP\Source\WindowFunctions\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Balanced_Infantry.elf">
+				<Option output="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Balanced_Infantry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/Target"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/App"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/Algorithm"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/BMI088"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/BMI088/inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/Mahony"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/User"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/TASK"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/BSP"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/vofa+"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../Include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 Balanced_Infantry.elf"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Balanced_Infantry.elf/fast">
+				<Option output="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Balanced_Infantry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/Target"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/App"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/Algorithm"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/BMI088"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/BMI088/inc"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Device/Mahony"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/User"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/TASK"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/BSP"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/vofa+"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../Include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 Balanced_Infantry.elf/fast"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSISDSP">
+				<Option output="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/libCMSISDSP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_LOOPUNROLL"/>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../PrivateInclude"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 CMSISDSP"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMSISDSP/fast">
+				<Option output="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/libCMSISDSP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_LOOPUNROLL"/>
+					<Add option="-DARM_MATH_CM7"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/../PrivateInclude"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 CMSISDSP/fast"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Balanced_Infantry/cmake-build-debug/bin_dsp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/Controller.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/Controller.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/imu_temp_ctrl.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/imu_temp_ctrl.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/observer.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/App/observer.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/All_struct.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_can.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_can.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_motor.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_motor.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_rc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_rc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_super_cap.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_super_cap.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_usart.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/BSP/bsp_usart.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_abs_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_add_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_and_u16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_and_u32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_and_u8.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_clip_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_clip_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_clip_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_clip_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_clip_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_mult_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_negate_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_not_u16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_not_u32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_not_u8.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_offset_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_or_u16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_or_u32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_or_u8.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_scale_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_shift_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_shift_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_shift_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_sub_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_xor_u16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_xor_u32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/arm_xor_u8.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CommonTables/arm_common_tables.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CommonTables/arm_common_tables_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CommonTables/arm_const_structs.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CommonTables/arm_const_structs_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_reset_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_reset_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_pid_reset_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_sin_cos_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/arm_sin_cos_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_boolean_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_braycurtis_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_canberra_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_chebyshev_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_chebyshev_distance_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cityblock_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cityblock_distance_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_correlation_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cosine_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_cosine_distance_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_dice_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_dtw_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_dtw_init_window_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_dtw_path_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_euclidean_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_euclidean_distance_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_hamming_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_jaccard_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_kulsinski_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_minkowski_distance_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_russellrao_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/arm_yule_distance.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_atan2_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_atan2_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_atan2_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_atan2_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_cos_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_cos_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_cos_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_divide_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_divide_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_sin_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_sin_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_sin_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_sqrt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_sqrt_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vexp_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vexp_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vexp_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vinverse_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vlog_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vlog_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vlog_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vlog_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/arm_vlog_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_opt_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_partial_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_conv_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_correlate_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_init_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_levinson_durbin_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_levinson_durbin_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_levinson_durbin_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_norm_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/arm_lms_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_bilinear_interp_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_bilinear_interp_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_bilinear_interp_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_bilinear_interp_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_bilinear_interp_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_linear_interp_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_linear_interp_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_linear_interp_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_linear_interp_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_linear_interp_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_spline_interp_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/arm_spline_interp_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_householder_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_householder_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_householder_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_add_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_add_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_add_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_add_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cholesky_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cholesky_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cholesky_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_trans_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_trans_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_trans_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_cmplx_trans_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_inverse_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_ldlt_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_ldlt_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_opt_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_mult_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_qr_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_qr_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_qr_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_scale_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_scale_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_scale_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_scale_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_lower_triangular_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_lower_triangular_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_lower_triangular_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_upper_triangular_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_upper_triangular_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_solve_upper_triangular_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_sub_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_sub_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_sub_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_sub_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_sub_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_trans_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_vec_mult_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_vec_mult_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_vec_mult_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_vec_mult_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/arm_mat_vec_mult_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion2rotation_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_conjugate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_inverse_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_norm_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_normalize_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_product_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_quaternion_product_single_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/arm_rotation2quaternion_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_linear_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_linear_predict_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_polynomial_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_rbf_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_rbf_predict_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_no_idx_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmax_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_no_idx_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_absmin_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_accumulate_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_accumulate_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_accumulate_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_entropy_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_entropy_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_entropy_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_kullback_leibler_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_logsumexp_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_no_idx_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_max_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mean_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_no_idx_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_min_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_mse_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_power_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_rms_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_rms_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_rms_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_rms_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_std_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_std_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_std_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_std_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_std_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_var_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_var_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_var_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_var_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/arm_var_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_barycenter_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_barycenter_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_bubble_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_copy_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f16_to_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f16_to_float.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f16_to_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f64_to_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f64_to_float.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f64_to_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f64_to_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_f64_to_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_fill_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_float_to_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_float_to_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_float_to_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_float_to_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_float_to_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_heap_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_insertion_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_merge_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q15_to_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q15_to_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q15_to_float.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q15_to_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q15_to_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q31_to_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q31_to_float.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q31_to_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q31_to_q7.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q7_to_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q7_to_float.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q7_to_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_q7_to_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_quick_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_selection_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_sort_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_sort_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_weighted_sum_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/arm_weighted_sum_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_bitreversal.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_bitreversal2.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_bitreversal_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_init_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix2_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix8_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_dct4_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_mfcc_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_init_f16.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_init_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_init_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_init_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_q15.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/arm_rfft_q31.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_bartlett_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_bartlett_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_blackman_harris_92db_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_blackman_harris_92db_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hamming_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hamming_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hanning_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hanning_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft116d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft116d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft144d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft144d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft169d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft169d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft196d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft196d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft223d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft223d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft248d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft248d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft90d_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft90d_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft95_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_hft95_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3a_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3a_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3b_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall3b_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4a_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4a_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4b_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4b_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4c_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_nuttall4c_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_welch_f32.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/arm_welch_f64.c">
+			<Option target="CMSISDSP"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/FreeRTOSConfig.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/adc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/dma.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/fdcan.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/gpio.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/main.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/memorymap.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/spi.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/stm32h7xx_it.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/tim.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Inc/usart.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/adc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/dma.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/fdcan.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/freertos.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/gpio.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/main.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/memorymap.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/spi.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/stm32h7xx_hal_timebase_tim.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/stm32h7xx_it.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/syscalls.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/sysmem.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/system_stm32h7xx.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/tim.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Src/usart.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Core/Startup/startup_stm32h723vgtx.s">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/QuaternionEKF.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/QuaternionEKF.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/controller.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/controller.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/kalman_filter.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/kalman_filter.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/pid.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/pid.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/user_lib.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Algorithm/user_lib.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/BMI088Middleware.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/BMI088driver.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/bsp_dwt.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/bsp_dwt.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/inc/BMI088Middleware.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/inc/BMI088driver.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/BMI088/inc/BMI088reg.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Mahony/MahonyAHRS.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Device/Mahony/MahonyAHRS.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/STM32H723VGTX_FLASH.ld">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Buzzer_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Buzzer_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Chassis_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Chassis_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Debug_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Debug_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Detect_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Detect_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Gimbal_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Gimbal_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Gimbal_task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Information_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Information_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Shoot_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Shoot_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Super_cap_Task.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/TASK/Super_cap_Task.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usb_device.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usb_device.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usbd_desc.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/App/usbd_desc.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/custom_lib.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/custom_lib.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/dm_motor_drv.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/dm_motor_drv.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/remote_control.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/User/remote_control.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/vofa+/vofa.c">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/vofa+/vofa.h">
+			<Option target="Balanced_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/configDsp.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BasicMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\BasicMathFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ComplexMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\ComplexMathFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/QuaternionMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\QuaternionMathFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/ControllerFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\ControllerFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FastMathFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\FastMathFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/FilteringFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\FilteringFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/MatrixFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\MatrixFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/StatisticsFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\StatisticsFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SupportFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\SupportFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/TransformFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\TransformFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/CommonTables/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\CommonTables\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/SVMFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\SVMFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/BayesFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\BayesFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/DistanceFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\DistanceFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/InterpolationFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\InterpolationFunctions\"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Balanced_Infantry/CMSIS-DSP/Source/WindowFunctions/Config.cmake">
+			<Option virtualFolder="CMake Files\CMSIS-DSP\Source\WindowFunctions\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

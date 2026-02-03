@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BSP/bsp_rc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BSP/bsp_usart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Device/Algorithm/controller.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Device/Algorithm/pid.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Device/Algorithm/pid.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Device/Algorithm/user_lib.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Device/Mahony/MahonyAHRS.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/dm_motor_drv.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/remote_control.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/remote_control.h" charset="GBK" />
+  </component>
+</project>
